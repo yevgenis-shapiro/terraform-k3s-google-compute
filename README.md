@@ -3,7 +3,7 @@
 ## Terraform Module - K3S ( Kubernetes )   | ⭐⭐⭐
 K3s is a highly available, certified Kubernetes distribution designed for production workloads in unattended, resource-constrained, remote locations
 
-🎯 Features
+🚀  Key Features
 ```
 ✅ Edge 
 ✅ IoT

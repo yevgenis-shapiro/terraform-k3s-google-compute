@@ -38,7 +38,6 @@ resource "google_compute_firewall" "iap-firewall" {
   target_tags   = ["k3s"]
 }
 
-
 resource "google_service_account" "k3s-server" {
   account_id = "k3s-server"
 }
@@ -46,6 +45,7 @@ resource "google_service_account" "k3s-server" {
 resource "google_service_account" "k3s-agent" {
   account_id = "k3s-agent"
 }
+
 
 module "k3s-db" {
   source = "./k3s-db"
@@ -73,6 +73,7 @@ module "k3s-servers" {
   db_user     = module.k3s-db.db_user
   db_password = module.k3s-db.db_password
 }
+
 
 module "k3s-agents" {
   source   = "./k3s-agents"

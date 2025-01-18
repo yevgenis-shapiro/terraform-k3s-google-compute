@@ -1,6 +1,6 @@
 ![k3s-on-gcp](https://github.com/user-attachments/assets/fd973fb9-d423-4358-97b6-09a7ab4b6d88)
 
-# K3S 
+## Terraform Module - K3S ( Kubernetes )   | ⭐⭐⭐
 K3s is a highly available, certified Kubernetes distribution designed for production workloads in unattended, resource-constrained, remote locations
 
 🎯 Features

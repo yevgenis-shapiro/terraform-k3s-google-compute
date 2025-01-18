@@ -74,7 +74,6 @@ module "k3s-servers" {
   db_password = module.k3s-db.db_password
 }
 
-
 module "k3s-agents" {
   source   = "./k3s-agents"
   for_each = var.agents

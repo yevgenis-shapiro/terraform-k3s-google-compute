@@ -1,31 +1,38 @@
 ![k3s-on-gcp](https://github.com/user-attachments/assets/fd973fb9-d423-4358-97b6-09a7ab4b6d88)
 
 ## Terraform Module - K3S ( Kubernetes )   | ⭐⭐⭐
-K3s is a highly available, certified Kubernetes distribution designed for production workloads in unattended, resource-constrained, remote locations
+K3S is a Kubernetes distribution made by Rancher, made to be as lightweight as possible while being compatible with Kubernetes production standards
+
 
 🚀  Key Features
 ```
 ✅ Edge 
-✅ IoT
-✅ Development
+✅ Internet of Things (IoT)
+✅ Continuous Integration (CI)
+✅ Embedded K8s
+✅ Air-Gapped Environments
 ```
 
 
 ### Complements :
 ```
-⭐️ Support for sqlite3 as the default storage backend. Etcd3, MariaDB, MySQL, and Postgres
-⭐️ Packaged as a single binary
+📃 Containerd / Dockerd Container Runtime
+📃 Flannel Container Network Interface (CNI)
+📃 CoreDNS Cluster DNS
+📃 ServiceLB Load-Balancer controller
+📃 Local-path-provisioner Persistent Volume controller
 ```
 
 
-🔨 Integration :
+🔨 External Datastore Integration :
 ```
-#  
-# 
+# MySQL
+# MariaDB
+# Postgres
+# Cassandra
 ```
 
 ### Providers
-The Cloudflare API key is used to authenticate into my account. Local environmental variable is used:
 
 ```
 terraform plan -out tfplan.out

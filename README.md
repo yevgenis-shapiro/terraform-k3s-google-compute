@@ -20,7 +20,7 @@ K3s is a lightweight Kubernetes distribution created by Rancher Labs, and it is 
 📃 Containerd / Dockerd Container Runtime
 📃 Flannel Container Network Interface (CNI)
 📃 CoreDNS Cluster DNS
-📃 ServiceLB Load-Balancer controller
+📃 ServiceLB Load-Balancer Controller
 📃 Local-path-provisioner Persistent Volume controller
 ```
 
@@ -29,11 +29,11 @@ K3s is a lightweight Kubernetes distribution created by Rancher Labs, and it is 
 ```
 # MySQL
 # MariaDB
-# Postgres
+# PostgresSQL
 # Cassandra
 ```
 
-### Providers
+### Config
 
 ```
 terraform plan -out tfplan.out

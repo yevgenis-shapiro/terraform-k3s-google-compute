@@ -1,5 +1,4 @@
-![image](https://github.com/user-attachments/assets/32567f45-2b20-4871-8d05-aeba091041c8)
-
+![k3s-on-gcp](https://github.com/user-attachments/assets/fd973fb9-d423-4358-97b6-09a7ab4b6d88)
 
 # K3S 
 K3s is a highly available, certified Kubernetes distribution designed for production workloads in unattended, resource-constrained, remote locations

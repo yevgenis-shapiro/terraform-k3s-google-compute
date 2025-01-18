@@ -1,7 +1,7 @@
 ![k3s-on-gcp](https://github.com/user-attachments/assets/fd973fb9-d423-4358-97b6-09a7ab4b6d88)
 
 ## Terraform Module - K3S ( Kubernetes )   | ⭐⭐⭐
-K3s is a lightweight Kubernetes distribution created by Rancher Labs, and it is fully certified by the Cloud Native Computing.K3s is highly available and production-ready. It has a very small binary size and very low resource requirements.Native Computing Platform for Edge , Internet of Things (IoT) , Continuous Integration (CI) , Embedded K8s , Air-Gapped Environments.
+K3s is a lightweight Kubernetes distribution created by Rancher Labs, and it is fully certified by the Cloud Native Computing.K3s is highly available and production-ready. It has a very small binary size and very low resource requirements . Kubernetes-Native Platform for Edge , Internet of Things (IoT) , Continuous Integration (CI) , Embedded K8s , Air-Gapped Environments.
 
 
 🚀  Key Features

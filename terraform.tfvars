@@ -8,7 +8,7 @@ database = {
 servers = {
   region              = "europe-west1"
   cidr_range          = "10.128.0.0/20"
-  machine_type        = "e2-micro"
+  machine_type        = "e2-medium"
   target_size         = 3
   authorized_networks = "91.183.51.235/32"
 }
@@ -17,13 +17,13 @@ agents = {
   eu001 = {
     region        = "europe-west4",
     cidr_range    = "10.164.0.0/20"
-    machine_type  = "e2-micro"
+    machine_type  = "e2-medium"
     target_size   = 2
   },
   eu002 = {
     region        = "europe-north1",
     cidr_range    = "10.166.0.0/20"
-    machine_type  = "e2-micro"
+    machine_type  = "e2-medium"
     target_size   = 2
   },
   eu003 = {
